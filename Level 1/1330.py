@@ -2,10 +2,10 @@ a, b = map(int, input().split())
 
 if a > b :
     print('>')
-if a <b : 
+elif a <b : 
     print('<')
-if a == b : 
-    print('=')
+else:
+    print('==')
 
 # if, elif, else로 해주자
 
